@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Etarget ad</title>
+  <style>
+    /* egyszerű középre igazítás; az iframe-et a szülő oldalon is lehet stílusolni */
+    body { margin:0; display:flex; align-items:center; justify-content:center; height:100vh; }
+  </style>
+</head>
+<body>
+  <!-- Etarget script (győződj meg róla, hogy https-sel hívod) -->
+  <script type="text/javascript" data-ad-type="iframe v2.0" charset="utf-8"
+    src="https://hu.search.etargetnet.com/generic/uni.php?g=ref:68278,area:300x250">
+  </script>
+
+  <!-- Noscript fallback (ha a script valamiért nem fut) -->
+  <noscript>
+    <iframe src="https://hu.search.etargetnet.com/generic/uni.php?g=ref:68278,area:300x250"
+            width="300" height="250" frameborder="0" scrolling="no"></iframe>
+  </noscript>
+</body>
+</html>
